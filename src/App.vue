@@ -12,9 +12,6 @@ export default {
   components:{
     Header,
   },
-  created(){
-    console.log(process.env);
-  }
 }
 </script>
 
