@@ -13,6 +13,7 @@ Object.keys(rules).forEach(rule => {
  */
 extend('extension', {
     validate(value, args) {
+        //현재 파일 확장자 추출
         const extension = extract(value[0]['name']);
         
         let diffExtension = ''; //비교 확장자
