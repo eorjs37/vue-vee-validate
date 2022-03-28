@@ -19,8 +19,6 @@
         </ValidationProvider> 
       </ValidationObserver>
       <button type="button" @click="submit()">제출</button>
-      
-      <router-view></router-view>
   </div>
 </template>
 <script>
